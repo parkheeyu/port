@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/port/static/css/main.35bf85d3.css",
+    "main.js": "/port/static/js/main.8e246709.js",
+    "static/js/787.9d21605b.chunk.js": "/port/static/js/787.9d21605b.chunk.js",
+    "static/media/portpolio.png": "/port/static/media/portpolio.77984172491d8d72c8e2.png",
+    "static/media/any.png": "/port/static/media/any.cc6515f40eaec4202996.png",
+    "static/media/logo1.jpg": "/port/static/media/logo1.ac8a013a4629f00fc32a.jpg",
+    "index.html": "/port/index.html",
+    "main.35bf85d3.css.map": "/port/static/css/main.35bf85d3.css.map",
+    "main.8e246709.js.map": "/port/static/js/main.8e246709.js.map",
+    "787.9d21605b.chunk.js.map": "/port/static/js/787.9d21605b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35bf85d3.css",
+    "static/js/main.8e246709.js"
+  ]
+}
