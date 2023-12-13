@@ -12,6 +12,10 @@ import LocalPage from './LocalPage';
 import LoginPage from './LoginPage';
 import JoinPage  from './JoinPage';
 import MyPage from './MyPage';
+import Project1 from './Project1';
+import SW1  from './SW1';
+import SW2  from './SW2';
+import SW3  from './SW3';
 import logo from './logo1.jpg';
 
 
@@ -25,7 +29,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
         <>
             <Navbar bg="light" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="/port"><img
+                    <Navbar.Brand href="/port" ><img
               src={logo}
               alt="로고"
               width="100%"
@@ -39,8 +43,10 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                             style={{ maxHeight: '100%' }}
                             navbarScroll>
                             <Link to="/port">Home</Link>
+                            <Link to="/pro1">프로젝트</Link>
                             <Link to="/book">도서검색</Link>
                             <Link to="/local">지역검색</Link>
+                            
                         </Nav>
                         <div> 
                             {sessionStorage.getItem('email') ?
@@ -65,6 +71,10 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                 <Route path="/login" component={LoginPage}/>
                 <Route path="/Join" component={JoinPage}/>
                 <Route path="/mypage" component={MyPage}/>
+                <Route path="/pro1" component={Project1}/>
+                <Route path="/sw1" component={SW1}/>
+                <Route path="/sw2" component={SW2}/>
+                <Route path="/sw3" component={SW3}/>
                 
                 
             </Switch>

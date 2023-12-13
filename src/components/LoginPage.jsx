@@ -7,8 +7,8 @@ const LoginPage = ({history}) => {
     const [loading, setLoading] = useState(false);
     const auth = getAuth(app);
     const [ form, setForm ] = useState({
-        email: 'phy@inha.com',
-        password: '12341234'
+        // email: 'phy@inha.com',
+        // password: '12341234'
     });
     const { email, password } = form;
     const onChange =(e)=> {
@@ -38,15 +38,17 @@ const LoginPage = ({history}) => {
                 <h1 className='text-center'>로그인</h1>
                 <Card className='p-3'>
                     <Form>
-                        <InputGroup className='my-2'>
-                            <InputGroup.Text>E-mail</InputGroup.Text>
+                        <InputGroup className='my-2 text-center'>
+                            <InputGroup.Text style={{ width: '87px' }}>아 이 디</InputGroup.Text>
                             <Form.Control value={email}
-                                onChange={onChange}name='email'/>
+                                onChange={onChange}name='email'
+                                placeholder="이메일을 입력하세요"/>
                         </InputGroup>
                         <InputGroup className='my-2'>
-                            <InputGroup.Text>Password</InputGroup.Text>
+                            <InputGroup.Text>비밀번호</InputGroup.Text>
                             <Form.Control value={password} type ="password"
-                                onChange={onChange}name='password'/>
+                                onChange={onChange}name='password'
+                                placeholder="비밀번호를 입력하세요"/>
                         </InputGroup>
                         <Button
                             onClick={onLogin}

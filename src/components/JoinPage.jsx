@@ -10,8 +10,7 @@ const JoinPage = ({history}) => {
     const auth = getAuth(app);
     const db = getFirestore(app);
     const [form, setForm] = useState({
-        email:'test2@inha.com',
-        password: '12341234'
+        
     });
 
     const {email, password} = form; //할당할때 중괄호 
@@ -34,9 +33,9 @@ const JoinPage = ({history}) => {
                     const uid = success.user.uid;
                     await setDoc(doc(db, 'user' ,uid), {
                         email: email,
-                        name: '홍길동',
-                        address: '인천 부평구 삼산동',
-                        phone: '010-6768-1111',
+                        name: '이름을 입력하세요.',
+                        address: '주소를 입력하세요.',
+                        phone: '전화번호를 입력하세요.',
                         photo: ''
                     });
 
@@ -59,14 +58,16 @@ const JoinPage = ({history}) => {
                 <Card className='p-3'>
                     <Form>
                         <InputGroup className='my-2'>
-                            <InputGroup.Text>아 이 디</InputGroup.Text>
+                            <InputGroup.Text style={{ width: '87px' }}>아 이 디</InputGroup.Text>
                             <Form.Control name="email" onChange={onChange}
-                                value={email}/>
+                                value={email}
+                                placeholder="이메일을 입력하세요"/>
                         </InputGroup>
-                        <InputGroup className='my-2'>
+                        <InputGroup className='my-2 '>
                             <InputGroup.Text>비밀번호</InputGroup.Text>
                             <Form.Control name="password" onChange={onChange}
-                                value={password} type="password"/>
+                                value={password} type="password"
+                                placeholder="비밀번호를 입력하세요"/>
                         </InputGroup>
                         <div className='text-center my-3'>
                             <Button onClick={onClickJoin}
