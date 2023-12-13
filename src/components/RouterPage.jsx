@@ -25,7 +25,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
         <>
             <Navbar bg="light" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="/"><img
+                    <Navbar.Brand href="/port"><img
               src={logo}
               alt="로고"
               width="100%"
@@ -38,7 +38,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100%' }}
                             navbarScroll>
-                            <Link to="/">Home</Link>
+                            <Link to="/port">Home</Link>
                             <Link to="/book">도서검색</Link>
                             <Link to="/local">지역검색</Link>
                         </Nav>
@@ -59,7 +59,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                 </Container>
             </Navbar>
             <Switch>
-                <Route path="/" component={HomePage} exact={true}/>
+                <Route path="/port" component={HomePage} exact={true}/>
                 <Route path="/book" component={BookPage}/> 
                 <Route path="/local" component={LocalPage}/>
                 <Route path="/login" component={LoginPage}/>
