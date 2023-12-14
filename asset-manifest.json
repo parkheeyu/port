@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.7f7ec3d7.css",
-    "main.js": "/port/static/js/main.1e2ee8be.js",
+    "main.css": "/port/static/css/main.c5d14e29.css",
+    "main.js": "/port/static/js/main.a8c08a1d.js",
     "static/js/787.9d21605b.chunk.js": "/port/static/js/787.9d21605b.chunk.js",
     "static/media/portpolio.png": "/port/static/media/portpolio.1d60aa77272ee925a20f.png",
+    "static/media/project1.pdf": "/port/static/media/project1.fb436edd076869f6e20b.pdf",
     "static/media/004.png": "/port/static/media/004.42be14ce3c64f01a4bbe.png",
     "static/media/005.png": "/port/static/media/005.8c81d79845ae06c3dc45.png",
     "static/media/010.png": "/port/static/media/010.b03831c46114a5110bfd.png",
@@ -13,8 +14,10 @@
     "static/media/001.png": "/port/static/media/001.c8a4bcf06c42c4276b56.png",
     "static/media/003.png": "/port/static/media/003.f0fb2ff7fbf6673767ff.png",
     "static/media/009.png": "/port/static/media/009.ca2d685154c96e1b7381.png",
+    "static/media/Certificate2.png": "/port/static/media/Certificate2.3bfe89a89cbed3ec6b4d.png",
     "static/media/012.png": "/port/static/media/012.330ad20033943ff29295.png",
     "static/media/006.png": "/port/static/media/006.8216af15c2318172ff41.png",
+    "static/media/Certificate1.png": "/port/static/media/Certificate1.a1fd6bccb5e4ffa4af4f.png",
     "static/media/011.png": "/port/static/media/011.6e89f79c167eb258d17d.png",
     "static/media/002.png": "/port/static/media/002.91bc50707a9aaa12b211.png",
     "static/media/any.jpg": "/port/static/media/any.4499ae4a49efb505226f.jpg",
@@ -25,12 +28,12 @@
     "static/media/slick.ttf": "/port/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/port/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/port/index.html",
-    "main.7f7ec3d7.css.map": "/port/static/css/main.7f7ec3d7.css.map",
-    "main.1e2ee8be.js.map": "/port/static/js/main.1e2ee8be.js.map",
+    "main.c5d14e29.css.map": "/port/static/css/main.c5d14e29.css.map",
+    "main.a8c08a1d.js.map": "/port/static/js/main.a8c08a1d.js.map",
     "787.9d21605b.chunk.js.map": "/port/static/js/787.9d21605b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f7ec3d7.css",
-    "static/js/main.1e2ee8be.js"
+    "static/css/main.c5d14e29.css",
+    "static/js/main.a8c08a1d.js"
   ]
 }
