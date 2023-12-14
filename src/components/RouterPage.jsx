@@ -16,6 +16,7 @@ import Project1 from './Project1';
 import SW1  from './SW1';
 import SW2  from './SW2';
 import SW3  from './SW3';
+import SW4  from './SW4';
 import Certificate  from './Certificate';
 import logo from './logo1.jpg';
 
@@ -77,6 +78,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                 <Route path="/sw1" component={SW1}/>
                 <Route path="/sw2" component={SW2}/>
                 <Route path="/sw3" component={SW3}/>
+                <Route path="/sw4" component={SW4}/>
                 <Route path="/cer" component={Certificate}/>
                 
                 

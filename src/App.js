@@ -5,10 +5,12 @@ import {Container} from 'react-bootstrap'
 
 function App() {
     return (
+        <div style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
         <Container className="App">
             <img src={any} width="100%"/>
             <RouterPage/>
         </Container>
+        </div>
     );
 }
 
