@@ -35,7 +35,6 @@ const SlideShow = ({ images }) => {
             ...style,
             display: "block",
             background: "black",
-            
             zIndex: 1,
             borderRadius: "100%",
             opacity: 1.8,
@@ -84,7 +83,7 @@ const SlideShow = ({ images }) => {
 const HomePage = () => {
     const imageContext = require.context('../images', false, /\.(png|jpe?g|svg)$/);
 // 이미지 폴더 내의 모든 이미지를 불러와서 배열로 반환합니다.
-    const images = imageContext.keys().map(imageContext).slice(0, 13);
+    const images = imageContext.keys().map(imageContext).slice(0, 14);
   return (
     <div>
        <SlideShow images={images} />
