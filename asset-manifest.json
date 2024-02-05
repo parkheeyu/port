@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.4d43a361.css",
-    "main.js": "/port/static/js/main.c61d1492.js",
+    "main.js": "/port/static/js/main.25941c53.js",
     "static/js/787.9d21605b.chunk.js": "/port/static/js/787.9d21605b.chunk.js",
     "static/media/pygame.mp4": "/port/static/media/pygame.f072ed7c2c3d892c2ed4.mp4",
     "static/media/portpolio.png": "/port/static/media/portpolio.1d60aa77272ee925a20f.png",
@@ -15,12 +15,13 @@
     "static/media/008.png": "/port/static/media/008.039ac89f19fdc4722a03.png",
     "static/media/007.png": "/port/static/media/007.d102400b7420a4c68770.png",
     "static/media/any.png": "/port/static/media/any.cc6515f40eaec4202996.png",
+    "static/media/006_2.png": "/port/static/media/006_2.70dc31d2f03ac753a78a.png",
+    "static/media/003.png": "/port/static/media/003.21c50b346cf2b3b81baf.png",
     "static/media/001.png": "/port/static/media/001.c8a4bcf06c42c4276b56.png",
-    "static/media/003.png": "/port/static/media/003.f0fb2ff7fbf6673767ff.png",
     "static/media/009.png": "/port/static/media/009.ca2d685154c96e1b7381.png",
     "static/media/Certificate2.png": "/port/static/media/Certificate2.3bfe89a89cbed3ec6b4d.png",
     "static/media/012.png": "/port/static/media/012.330ad20033943ff29295.png",
-    "static/media/006.png": "/port/static/media/006.8216af15c2318172ff41.png",
+    "static/media/006_1.png": "/port/static/media/006_1.8216af15c2318172ff41.png",
     "static/media/Certificate1.png": "/port/static/media/Certificate1.a1fd6bccb5e4ffa4af4f.png",
     "static/media/011.png": "/port/static/media/011.6e89f79c167eb258d17d.png",
     "static/media/002.png": "/port/static/media/002.91bc50707a9aaa12b211.png",
@@ -33,11 +34,11 @@
     "static/media/slick.woff": "/port/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/port/index.html",
     "main.4d43a361.css.map": "/port/static/css/main.4d43a361.css.map",
-    "main.c61d1492.js.map": "/port/static/js/main.c61d1492.js.map",
+    "main.25941c53.js.map": "/port/static/js/main.25941c53.js.map",
     "787.9d21605b.chunk.js.map": "/port/static/js/787.9d21605b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d43a361.css",
-    "static/js/main.c61d1492.js"
+    "static/js/main.25941c53.js"
   ]
 }
