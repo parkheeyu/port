@@ -47,11 +47,11 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                             <Link to="/port">Home</Link>
                             <Link to="/pro1">프로젝트</Link>
                             <Link to="/cer">증명서</Link>
-                            <Link to="/book">도서검색</Link>
-                            <Link to="/local">지역검색</Link>
+                            {/* <Link to="/book">도서검색</Link>
+                            <Link to="/local">지역검색</Link> */}
                             
                         </Nav>
-                        <div> 
+                        {/* <div> 
                             {sessionStorage.getItem('email') ?
                                 <>
                                 <Link to="/mypage">{sessionStorage.getItem('email')}</Link>
@@ -63,7 +63,7 @@ const RouterPage = ({history}) => { // 히스토리 쓸려면 위드라우터로
                                 <Link to="/login">로그인</Link>
                             }
                             
-                        </div>
+                        </div> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
