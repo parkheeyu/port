@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.4d43a361.css",
-    "main.js": "/port/static/js/main.25941c53.js",
+    "main.js": "/port/static/js/main.67a5aaf4.js",
     "static/js/787.9d21605b.chunk.js": "/port/static/js/787.9d21605b.chunk.js",
     "static/media/pygame.mp4": "/port/static/media/pygame.f072ed7c2c3d892c2ed4.mp4",
     "static/media/portpolio.png": "/port/static/media/portpolio.1d60aa77272ee925a20f.png",
@@ -34,11 +34,11 @@
     "static/media/slick.woff": "/port/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/port/index.html",
     "main.4d43a361.css.map": "/port/static/css/main.4d43a361.css.map",
-    "main.25941c53.js.map": "/port/static/js/main.25941c53.js.map",
+    "main.67a5aaf4.js.map": "/port/static/js/main.67a5aaf4.js.map",
     "787.9d21605b.chunk.js.map": "/port/static/js/787.9d21605b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d43a361.css",
-    "static/js/main.25941c53.js"
+    "static/js/main.67a5aaf4.js"
   ]
 }
